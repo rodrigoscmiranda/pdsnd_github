@@ -105,7 +105,7 @@ def load_data(city, month, day):
     return df
 
 
-def time_status(df):
+def time_stat(df):
     """Displays statistics on the most frequent times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
@@ -128,7 +128,7 @@ def time_status(df):
     print('-'*40)
 
 
-def station_status(df):
+def station_stat(df):
     """Displays statistics on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
@@ -178,7 +178,7 @@ def trip_duration_stats(df):
     print('-'*40)
 
 
-def user_status(df):
+def user_stat(df):
     """Displays statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
@@ -219,10 +219,10 @@ def main():
         df = load_data(city, month, day)
 
 
-        time_status(df)
-        station_status(df)
+        time_stat(df)
+        station_stat(df)
         trip_duration_stats(df)
-        user_status(df)
+        user_stat(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':

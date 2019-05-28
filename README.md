@@ -1,19 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
-May 28th, 2019
+May 28th
 
 ### Project Title
-Replace the Project Title
-RodrigoMirandaProject
+RodrigoMiranda
 
 ### Description
-Describe what your project is about and what it does
-Working with github local and remote repositories
+Working with local and remote repositories
 
 ### Files used
 bikeshare.py, chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
 Helped by:
--Ronak M via https://knowledge.udacity.com/questions/16546
--https://stackoverflow.com/questions/32238616/git-push-fatal-origin-does-not-appear-to-be-a-git-repository-fatal-could-n/32238628
+-https://stackoverflow.com/questions/10349302/how-to-git-log-from-all-branches-for-the-author-at-once
+-Ronan K in https://knowledge.udacity.com/questions/16546
+
+Also got really helped by Ronak M in https://knowledge.udacity.com/questions/37709
